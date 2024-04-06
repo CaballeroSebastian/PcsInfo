@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    width: 40%;
+    height: 100%;
+    background-image: url(img/fondo.jpg);
+    display: flex; 
+    margin: auto;
+    margin-top: 2.5em;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.encabezado{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.base{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); 
+}
+
+.fase1{
+    width: 100%;
+    height: 100%;
+}
+
+.box1{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.img1{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0em 0em 0em;
+}
+
+.box2{
+    width: auto;
+    height: 50%;
+    display: flex;
+    padding: 1em;
+}
+
+.info{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0em 1em 0em 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fase2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video{
+    width: auto;
+    height: 500px;
+    padding: 1em;
+}
+
+  .video-y {
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
